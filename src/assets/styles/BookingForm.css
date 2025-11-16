@@ -1,0 +1,247 @@
+/*.booking-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.booking-container {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  width: 400px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.booking-container h2 {
+  text-align: center;
+  color: #004aad;
+  margin-bottom: 15px;
+}
+
+.booking-container label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 600;
+}
+
+.booking-container input,
+.booking-container select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.confirm-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.confirm-btn:hover {
+  background: #0056b3;
+}
+
+.cancel-btn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background: #cc0000;
+}*/
+/*
+.booking-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.booking-form {
+  background: #fff;
+  padding: 25px 35px;
+  border-radius: 10px;
+  width: 350px;
+  position: relative;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.booking-form h2 {
+  margin-bottom: 15px;
+  color: #004aad;
+  text-align: center;
+}
+
+.booking-form input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.submit-btn {
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #003580;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #444;
+  cursor: pointer;
+}
+*/.booking-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.booking-container {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  width: 400px;
+  position: relative;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.booking-container h2 {
+  text-align: center;
+  color: #004aad; /* Navbar color */
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.booking-container label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 600;
+  color: #004aad; /* label color same as navbar */
+}
+
+.booking-container input,
+.booking-container select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.confirm-btn {
+  background: #004aad; /* navbar color */
+  color: white;
+  border: none;
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.confirm-btn:hover {
+  background: #003580;
+}
+
+.cancel-btn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background: #cc0000;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #004aad; /* navbar color */
+  cursor: pointer;
+}

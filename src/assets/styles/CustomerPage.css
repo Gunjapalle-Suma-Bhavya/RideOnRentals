@@ -1,0 +1,113 @@
+.customer-page {
+  padding: 40px;
+  background-color: #f3f6fa;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  color: #004aad;
+  margin-bottom: 8px;
+}
+
+.page-subtitle {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.vehicle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.vehicle-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.vehicle-card:hover {
+  transform: translateY(-6px);
+}
+
+.vehicle-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.vehicle-details {
+  padding: 15px;
+  text-align: left;
+}
+
+.vehicle-details h3 {
+  color: #004aad;
+  margin-bottom: 10px;
+}
+
+.vehicle-details p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+
+.available {
+  color: green;
+  font-weight: bold;
+}
+
+.rented {
+  color: red;
+  font-weight: bold;
+}
+
+.book-btn {
+  width: 100%;
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.book-btn:hover {
+  background-color: #0066cc;
+}
+
+.book-btn:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+.back-btn-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.back-btn {
+  background-color: #004aad; /* Same color as navbar/footer */
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #003580;
+}

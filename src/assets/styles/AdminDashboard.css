@@ -1,0 +1,158 @@
+/*#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+  */
+  /*
+  :root {
+  --primary-color: #0E3E70;
+  --primary-dark: #092f55;
+  --text-light: #ffffff;
+  --text-dark: #333333;
+}
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  min-height: 100vh;
+}
+
+.card {
+  padding: 2em;
+  background-color: #ffffff;
+  color: var(--text-dark);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(14, 62, 112, 0.3);
+  margin: 1.5em auto;
+  max-width: 600px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(14, 62, 112, 0.4);
+}
+
+
+button {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--primary-dark);
+}
+
+
+a {
+  color: var(--text-light);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #dbe9ff;
+}*/
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background-color: #0E3E70;  /* solid primary blue */
+  color: #ffffff;             /* make all sidebar text pure white */
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 100vh;
+}
+
+/* Sidebar Title */
+.sidebar-title {
+  font-size: 24px;           /* increased size */
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #ffffff;            /* ensure full white */
+}
+
+/* Sidebar menu items */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  font-size: 18px;           /* increase text size */
+  margin: 15px 0;
+  font-weight: 500;
+  color: #ffffff;            /* strong white text */
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  color: #dbe9ff;            /* light hover effect */
+}
+/* Back Button Styling */
+.back-btn-admin {
+  background-color: #1d7ee6;       /* same as navbar */
+  color: white;                    /* white text */
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.back-btn-admin:hover {
+  background-color: #1665b8;       /* darker blue */
+}
